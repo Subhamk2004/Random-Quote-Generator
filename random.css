@@ -1,22 +1,24 @@
 body{
     background-color: rgb(30, 34, 31);
-}
-h1{
-    margin-top: 4%;
-    color:rgb(43, 226, 67);
-}
-.quote{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+h1{
+    margin-top: 4%;
+    color:rgb(43, 226, 67);
+}
+
 .realquote{
     width:50vw;
     margin-top: 10vw;
     border:solid 1px;
     border-radius: 10px;
     background-color:rgb(64, 189, 64);
+    display: flex;
+    flex-direction: column;
+
 }
 #text{
     margin-top: 2vw;
